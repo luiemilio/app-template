@@ -1,6 +1,6 @@
 const liveServer = require('live-server');
 const path = require('path');
-const { launch, connect } = require('hadouken-js-adapter');
+const { launch, connect } = require('openfin-adapter');
 
 const serverParams = {
     root: path.resolve('public'),
